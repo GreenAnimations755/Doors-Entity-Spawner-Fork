@@ -139,7 +139,7 @@ Creator.createEntity = function(config)
 
     -- Obtain custom model
 
-    local entityModel = LoadCustomInstance(config.Model)
+    local entityModel = config.Model
 
     if typeof(entityModel) == "Instance" and entityModel.ClassName == "Model" then
         local pPart = entityModel.PrimaryPart or entityModel:FindFirstChildWhichIsA("BasePart")
