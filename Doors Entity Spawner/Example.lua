@@ -1,4 +1,4 @@
-local Creator = loadstring(game:HttpGet("https://github.com/GreenAnimations755/Doors-Entity-Spawner-Fork/blob/main/Doors%20Entity%20Spawner/Source.lua"))()
+local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenAnimations755/Doors-Entity-Spawner-Fork/main/Doors%20Entity%20Spawner/Source.lua"))()
 
 -- Create Entity Model
 
