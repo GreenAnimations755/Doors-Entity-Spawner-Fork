@@ -19,10 +19,7 @@ RushNew.Parent = AmbushMoving
 local Attachment = Instance.new("Attachment")
 Attachment.WorldOrientation = Vector3.new(0, 4.610810279846191, 0)
 Attachment.CFrame = CFrame.new(0, 1.459420919418335, 0)
-Attachment.WorldPosition = Vector3.new(-445.9469299316406, 42.16643524169922, 3264.72607421875)
-Attachment.WorldCFrame = CFrame.new(-445.9469299316406, 42.16643524169922, 3264.72607421875, 0.9967637062072754, 0, 0.08038699626922607, 0, 1, -0, -0.08038699626922607, 0, 0.9967637062072754)
 Attachment.Position = Vector3.new(0, 1.459420919418335, 0)
-Attachment.WorldAxis = Vector3.new(0.9967637062072754, 0, -0.08038699626922607)
 Attachment.Parent = RushNew
 
 local BlackTrail = Instance.new("ParticleEmitter")
